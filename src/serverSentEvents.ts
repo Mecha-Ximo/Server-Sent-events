@@ -33,7 +33,6 @@ router.get('/', (req: Request, res: Response) => {
     };
 
     const message = `data: ${JSON.stringify(user)} \n\n`;
-
     res.write(message);
 
     userIndex++;
